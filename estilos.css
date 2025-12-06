@@ -1,0 +1,169 @@
+/* Estilos Generales */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333333;
+}
+
+
+a {
+    text-decoration: none;
+    color: #3498db;
+}
+
+/* Header */
+header {
+    background-color: #ffffff;
+    padding: 20px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo a {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #512ade;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #333333;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #512ade;
+    color: #ffffff;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #3498db;
+    color: #ffffff;
+    padding: 0px 0;
+    margin-top: 30px;
+    text-align: center;
+    position: relative;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 800px;
+    padding: 20px;
+}
+
+.hero h1 {
+    font-size: 3em;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+/* Botón */
+.button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 15px 30px;
+    font-size: 1.1em;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.button.primary {
+    background-color: #e74c3c;
+    color: #ffffff;
+}
+
+.button.primary:hover {
+    background-color: #c0392b;
+}
+
+/* Impact Section */
+.impact {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.impact-stats {
+    display: flex;
+    justify-content: space-around;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.stat {
+    text-align: center;
+    padding: 20px;
+}
+
+.stat h3 {
+    font-size: 2.5em;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 10px;
+}
+
+.events{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-top: -70px;
+    padding: -80px;
+}
+
+.testimonials {
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+}
+
+.partners {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    padding-bottom: -30px;
+}
+
+/* Footer */
+footer {
+    background-color: #333333;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+}
